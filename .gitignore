@@ -1,0 +1,28 @@
+# virtual environment
+venv/
+.venv/
+
+# python cache
+__pycache__/
+*.pyc
+
+# pytest cache
+.pytest_cache/
+
+# reports
+reports/
+reports/allure-results/
+reports/allure-report/
+*.png
+*.log
+
+# screenshots 
+# screenshots/
+
+# IDE
+.vscode/
+.idea/
+
+
+
+
