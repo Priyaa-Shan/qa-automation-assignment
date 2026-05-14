@@ -10,11 +10,7 @@ __pycache__/
 .pytest_cache/
 
 # reports
-reports/
-reports/allure-results/
-reports/allure-report/
-*.png
-*.log
+
 
 # screenshots 
 # screenshots/
