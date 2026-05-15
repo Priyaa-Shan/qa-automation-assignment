@@ -1,10 +1,13 @@
-from pages.restaurant_page import RestaurantPage
+from pages.home_page import HomePage
 
+def test_home_page(page):
 
-def test_restaurant_search(page):
+    home = HomePage(page)
 
-    restaurant_page = RestaurantPage(page)
+    home.navigate()
 
-    restaurant_page.navigate()
+    assert "Playwright" in home.get_title()
 
-    assert restaurant_page.get_results_count() > 0
+    assert home.get_started_button.is_visible()
+
+    assert home.navbar.is_visible()
